@@ -1,0 +1,14 @@
+// Base
+$primaryColor: #CCCCCC;
+$altColor: #777777;
+$successColor: #20D750;
+$errorColor: #F46868;
+$gradientBackground: linear-gradient(145deg, $primaryColor, $altColor);
+$textColor: #1F1F1F;
+$lightTextColor: #F1F1F1;
+
+// Buttons
+$buttonFont: sans-serif;
+$buttonGreenColor: $successColor;
+$buttonRedColor: $errorColor;
+$buttonGreyColor: #9B9B9B;
