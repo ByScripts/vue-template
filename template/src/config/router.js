@@ -20,7 +20,7 @@ Available routes meta:
 
 const router = new Router({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: process.env.VUE_APP_ROOT_URL,
   routes: [
     {
       path: '/',

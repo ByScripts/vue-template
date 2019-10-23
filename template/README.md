@@ -1,12 +1,5 @@
 # {{ name }}
 
-## Using this template
-
-```
-yarn global add @vue/cli
-
-vue init byscripts/vue-template <your-app-name>
-```
-
 ## Environment Variable
-`VUE_APP_API_ROOT_URL`: The URL of your API root
+`VUE_APP_ROOT_URL`: The root URL of your app
+`VUE_APP_API_ROOT_URL`: The root URL of your app API 
