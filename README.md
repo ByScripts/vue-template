@@ -7,5 +7,7 @@ vue init byscripts/vue-template <your-app-name>
 
 cd <your-app-name>
 
+yarn install
+
 yarn serve
 ```
