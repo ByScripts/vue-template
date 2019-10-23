@@ -1,9 +1,6 @@
 {
-  "name": "{{ projectName }}",
-  "author": {
-    "name": "{{ fullName }}",
-    "email": "{{ email }}"
-  },
+  "name": "{{ name }}",
+  "author": "{{ author }}",
   "version": "0.1.0",
   "private": true,
   "scripts": {

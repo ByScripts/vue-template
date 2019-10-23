@@ -55,9 +55,9 @@ router.beforeEach((to, from, next) => {
   }
 
   if (to.meta.title) {
-    document.title = `${to.meta.title} - {{ name }}`;
+    document.title = `${to.meta.title} - {{ projectName }}`;
   } else {
-    document.title = '{{ name }}';
+    document.title = '{{ projectName }}';
   }
 
   return next();

@@ -4,9 +4,7 @@ Emitted events: confirm, cancel
 <template>
   <div class="app-confirmation">
     <FontAwesomeIcon class="icon" size="5x" :icon="$icons.warning" />
-    <SectionTitle light center>
-      {{ message }}
-    </SectionTitle>
+    <SectionTitle light center v-text="message" />
     <div class="buttons">
       <ButtonGrey
         :icon="$icons.cancel"
